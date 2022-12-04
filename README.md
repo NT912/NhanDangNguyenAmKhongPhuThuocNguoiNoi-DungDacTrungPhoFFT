@@ -10,7 +10,7 @@ Output:
 -	Bảng thống kê độ chính xác nhận dạng tổng hợp (%) theo số chiều của vector đặc trưng (là số điểm lấy mẫu trên miền tần số N_FFT với 03 giá trị 512, 1024, 2048).
 -	Ma trận nhầm lẫn (confusion matrix) của trường hợp có độ chính xác tổng hợp cao nhất trong 3 giá trị N_FFT trên: ma trận này thống kê số lần nhận dạng đúng/sai của mỗi cặp nguyên âm (có highlight nguyên âm đc nhận dạng đúng và bị nhận dạng sai nhiều nhất) theo format sau:
 
-<img src="">
+<img src="https://github.com/NT912/NhanDangNguyenAmKhongPhuThuocNguoiNoi-DungDacTrungPhoFFT/blob/main/img/maTranNhamLan.png">
 
 Dữ liệu sử dụng để thiết lập và hiệu chỉnh các thông số của thuật toán: 
 tín hiệu tiếng nói (mỗi tín hiệu chứa 01 nguyên âm ở giữa và 2 khoảng lặng ở 2 đầu) của tập huấn luyện (thư mục NguyenAmHuanLuyen gồm 21 người, 105 file huấn luyện).
@@ -28,7 +28,6 @@ d.	Tính vector đặc trưng cho 1 nguyên âm của nhiều người nói = Tr
 TLTK:
 [1] Hands-on lab on Speech Processing-Frequency-domain processing_2021 (phần 1 về spectrogram).
 [4]CITA_SoSanhPhuongPhapDuongBaoPhovaPhuongPhapAnhPhoTrongTimKiemAmNhac_2021 (phần 2 về mô hình của BT tìm kiếm/nhận dạng dựa trên so khớp mẫu).
-![image](https://user-images.githubusercontent.com/87311015/205482164-e7cc0e94-eca1-4d2e-bd21-07776c66eb69.png)
 
 <h1>Algorithm Example</h1>
 <img src="https://github.com/NT912/NhanDangNguyenAmKhongPhuThuocNguoiNoi-DungDacTrungPhoFFT/blob/main/img/AlgorithmMain.png">
